@@ -212,32 +212,32 @@ ul,li a:hover{
 }
 
 .img-profile{
-  width: 40%;
+  width: 30%;
   height: 50%;
   position:absolute;
   top: 90%;
   left: 60%;
 }
 .img-skill{
-  width: 40%;
+  width: 30%;
   height: 40%;
   position:absolute;
   top: 170%;
-  left: 20%;
+  left: 15%;
 }
 .img-application{
-  width: 50%;
+  width: 30%;
   height: 60%;
   position:absolute;
   top: 255%;
-  left: 50%;
+  left: 60%;
 }
 .img-contact{
-  width: 50%;
+  width: 30%;
   height: 50%;
   position:absolute;
   top: 325%;
-  left: 20%;
+  left: 15%;
 }
 
 .fa-rotate-30 {
