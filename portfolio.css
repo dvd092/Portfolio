@@ -2,7 +2,7 @@
 body{
   background-color: #DDDDDD;
   letter-spacing: 1px;
-  background-image: url("b065.gif");
+  background-image: url("C:/xampp/htdocs/portfolio/img/b065.gif");
   word-break: break-all;
 }
 
@@ -34,7 +34,7 @@ ul,li a:hover{
 #header {
   width: 100%;
   height: 400px;
-  background-image: url(textile-2918844_1920.jpg);
+  background-image: url("C:/xampp/htdocs/portfolio/img/textile-2918844_1920.jpg");
   padding: 0;
   display: flex;
   background-size: auto;
@@ -248,7 +248,7 @@ ul,li a:hover{
 
 /* フッター */
 #footer{
-  background-image: url("b113.jpg");
+  background-image: url("C:/xampp/htdocs/portfolio/img/b113.jpg");
   margin: -8px;
   margin-top: 200px;
   height: -50%;
