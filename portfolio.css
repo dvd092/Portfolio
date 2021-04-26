@@ -24,7 +24,7 @@ ul,li a:hover{
 .label a{
   font-size: 80px;
   font-family: 'Fredericka the Great', cursive;
-  margin-left: 68%;
+  margin-left: 65%;
   white-space: nowrap;
   color: black;
   display: inline-block;
@@ -32,16 +32,13 @@ ul,li a:hover{
   text-decoration: none;
 }
 #header {
-  width: 100%;
-  height: 400px;
+  width: 99%;
+  height: 52%;
   background-image: url("C:/xampp/htdocs/portfolio/img/textile-2918844_1920.jpg");
   padding: 0;
   display: flex;
   background-size: auto;
   align-items: center;
-  position: absolute;
-  margin-left: -10px;
-  margin-top: -10px;
   position: absolute;
 }
 
@@ -49,9 +46,10 @@ ul,li a:hover{
 
 /* サイトのナビ */
 #sitenavi1{
+  
   padding: 10px;
   font-family: 'Annie Use Your Telescope', cursive;
-  z-index: 100;
+  left: 50%;
   
 }
 
@@ -61,10 +59,10 @@ ul,li a:hover{
   justify-content: center;
   justify-content: space-around;
   background-color: aliceblue;
-  margin-top: 400px;
-  transition: all .3s ease 0s;
-  width: 1500px;
-  margin-left: 200px;
+  margin-top: 26%;
+  margin-left: 10%;
+  width: 80%;
+  
 }
 
 #sitenavi1 li{
@@ -217,28 +215,28 @@ ul,li a:hover{
   width: 40%;
   height: 50%;
   position:absolute;
-  top: 80%;
+  top: 90%;
   left: 60%;
 }
 .img-skill{
   width: 40%;
   height: 40%;
   position:absolute;
-  top: 160%;
+  top: 170%;
   left: 20%;
 }
 .img-application{
   width: 50%;
   height: 60%;
   position:absolute;
-  top: 240%;
+  top: 255%;
   left: 50%;
 }
 .img-contact{
   width: 50%;
   height: 50%;
   position:absolute;
-  top: 310%;
+  top: 325%;
   left: 20%;
 }
 
@@ -263,3 +261,4 @@ ul,li a:hover{
   color: black;
   text-align: center;
 }
+
