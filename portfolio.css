@@ -2,7 +2,7 @@
 body{
   background-color: #DDDDDD;
   letter-spacing: 1px;
-  background-image: url("C:/xampp/htdocs/portfolio/img/b065.gif");
+  background-image: url("./img/b065.gif");
   word-break: break-all;
   
 }
@@ -34,8 +34,7 @@ ul,li a:hover{
 #header {
   background-size: auto 100%;
   height: 480px;
-  background-image: url("C:/xampp/htdocs/portfolio/img/textile-2918844_1920.jpg");
-  display: flex;
+  background-image: url("./img/textile-2918844_1920.jpg");
   align-items: center;
   display: flex;
   flex-wrap: wrap;
@@ -80,9 +79,6 @@ ul,li a:hover{
 }
 
 
-
-
-
 #sitenavi2{
   position: relative;
   padding: 10px;
@@ -100,7 +96,6 @@ ul,li a:hover{
 /* インナー */
 .section .inner{
   padding: 100px ;
-  
 }
 
 /* タイトルのスタイル */
@@ -124,7 +119,7 @@ ul,li a:hover{
   margin-left: 12%;
   margin-top: 5%;
   transform: rotate(5deg);
-  margin-bottom: -7%;
+  margin-bottom: -10%;
   position: relative;
   z-index: 5;
 }
@@ -163,15 +158,25 @@ ul,li a:hover{
   margin-left: 67%;
 }
 
+.two-column-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 0%;
+}
+
 /* ボックスのスタイル */
 .section-box1 {
   display: flex;
+  flex-wrap: wrap;
   width: 80%;
   justify-content: space-between;
   padding: 50px;
   width: 500px;
   height: 400px;
-  overflow: hidden;
   box-shadow: 0 .25rem .25rem hsla(0, 0%, 0%, .1);
   background-image:
     linear-gradient(180deg, hsla(0, 0%, 45%, .1) 2rem, hsla(0, 100%, 100%, 0) 2.5rem)
@@ -181,15 +186,16 @@ ul,li a:hover{
   position: relative;
   left: 5%;
   z-index: 3;
+  
 }
 
 .section-box2 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 50px;
   width: 500px;
   height: 400px;
-  overflow: hidden;
   box-shadow: 0 .25rem .25rem hsla(0, 0%, 0%, .1);
   background-image:
     linear-gradient(180deg, hsla(0, 0%, 45%, .1) 2rem, hsla(0, 100%, 100%, 0) 2.5rem)
@@ -203,12 +209,11 @@ ul,li a:hover{
 
 .section-box3 {
   display: flex;
-  width: 80%;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 50px;
   width: 500px;
   height: 400px;
-  overflow: hidden;
   box-shadow: 0 .25rem .25rem hsla(0, 0%, 0%, .1);
   background-image:
     linear-gradient(180deg, hsla(0, 0%, 45%, .1) 2rem, hsla(0, 100%, 100%, 0) 2.5rem)
@@ -220,12 +225,12 @@ ul,li a:hover{
 }
 .section-box4 {
   display: flex;
+  flex-wrap: wrap;
   width: 80%;
   justify-content: space-between;
   padding: 50px;
   width: 500px;
   height: 400px;
-  overflow: hidden;
   box-shadow: 0 .25rem .25rem hsla(0, 0%, 0%, .1);
   background-image:
     linear-gradient(180deg, hsla(0, 0%, 45%, .1) 2rem, hsla(0, 100%, 100%, 0) 2.5rem)
@@ -248,6 +253,8 @@ ul,li a:hover{
   font-family: 'Yusei Magic', sans-serif;
   font-weight: 500;
   letter-spacing: 3px;
+  display: inline-block;
+  display: block;
 }
 .section-plot p2 {
   text-align: center;
@@ -263,14 +270,18 @@ ul,li a:hover{
   font-weight: 500;
   letter-spacing: 1px;
 }
+
 /* イメージ */
 .img-profile{
   width: 30%;
   height: 50%;
   position:absolute;
-  margin-top: 200px;
-  margin-left: 1000px;
+  margin-left: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  width : 50vw ;
 }
+
 .img-skill{
   width: 30%;
   height: 40%;
@@ -299,7 +310,7 @@ ul,li a:hover{
 
 /* フッター */
 #footer{
-  background-image: url("C:/xampp/htdocs/portfolio/img/b113.jpg");
+  background-image: url("./img/b113.jpg");
   margin: -8px;
   margin-top: 200px;
   height: -50%;
@@ -320,5 +331,350 @@ ul,li a:hover{
 	/* 959px以下に適用されるCSS（タブレット用） */
 }
 @media screen and (max-width: 480px) {
-	/* 480px以下に適用されるCSS（スマホ用） */
+	/* 480px以下に適用されるCSS（スマホ用）------------------------------------------------------------------------------------------------------------------------------------ */
+  /* サイト全体 */
+body{
+  background-color: #DDDDDD;
+  letter-spacing: 1px;
+  background-image: url("./img/b065.gif");
+  word-break: break-all;
+  
+}
+
+ul,li{
+  list-style: none;
+}
+
+ul,li a{
+  text-decoration: none;
+}
+
+ul,li a:hover{
+  color: #999999;
+  transition: all .3s;
+  opacity: .8;
+}
+
+/* ヘッダー */
+.label a{
+  font-size: 30px;
+  font-family: 'Fredericka the Great', cursive;
+  color: black;
+  display: inline-block;
+  display: block;
+  text-decoration: none;
+  
+}
+#header {
+  background-size: auto 100%;
+  height: 300px;
+  background-image: url("./img/textile-2918844_1920.jpg");
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* サイトのナビ */
+#sitenavi1{
+  
+  padding: 10px;
+  font-family: 'Annie Use Your Telescope', cursive;
+  z-index: 100;
+}
+
+#sitenavi1 ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: aliceblue;
+  width: 100%;
+  padding: 0%;
+}
+
+#sitenavi1 li{
+  display: inline-block;
+  transition: all .3s ease 0s;
+}
+
+#sitenavi1 li:hover{
+  transform: scale(1.2);
+}
+
+#sitenavi1 li a{
+  font-weight: bold;
+  font-size: 12px;
+  padding: 0 20px;
+  color: #111111;
+}
+
+
+#sitenavi2{
+  position: relative;
+  padding: 10px;
+  font-family: 'Annie Use Your Telescope', cursive;
+  height: 100px;
+  z-index: 100;
+  font-size: 30px;
+  flex-direction: row;
+  margin-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* インナー */
+.section .inner{
+  padding: 0;
+}
+
+/* タイトルのスタイル */
+
+
+.section-title  h1,h2,h3,h4{
+  letter-spacing: 1px;
+  background-color: rgba(255,255,255,.5);
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+  border-right: 2px dotted rgba(0,0,0,.1);
+  border-left: 2px dotted rgba(0,0,0,.1);
+  display: inline-block;
+}
+
+
+.section-title h1 {
+  width: 250px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Lexend Giga', sans-serif;
+  transform: rotate(5deg);
+  margin-bottom: -10%;
+  position: relative;
+  z-index: 5;
+  margin-top: 40%;
+}
+.section-title h2 {
+  width: 300px;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Lexend Giga', sans-serif;
+  margin-left: 70%;
+  margin-bottom: -5%;
+  transform: rotate(-5deg);
+  z-index: 5;
+  position: relative;
+}
+.section-title h3 {
+  width: 500px;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Lexend Giga', sans-serif;
+  margin-left: 3%;
+  margin-bottom: -20px;
+  transform: rotate(5deg);
+  z-index: 5;
+  position: relative;
+}
+.section-title h4 {
+  width: 350px;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Lexend Giga', sans-serif;
+  margin-left: 750px;
+  margin-bottom: -20px;
+  transform: rotate(-5deg);
+  z-index: 5;
+  position: relative;
+  margin-left: 67%;
+}
+
+.two-column-wrapper {
+  width: 100%;
+  height: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0%;
+}
+
+/* ボックスのスタイル */
+.section-box1 {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+  overflow: scroll;
+  box-shadow: 0 .25rem .25rem hsla(0, 0%, 0%, .1);
+  background-image:
+    linear-gradient(180deg, hsla(0, 0%, 45%, .1) 2rem, hsla(0, 100%, 100%, 0) 2.5rem)
+  , linear-gradient(180deg, hsla(60, 100%, 75%,1), hsla(60, 100%, 75%, 1));
+  line-height: 1.8;
+  position: relative;
+  right: 50%;
+  z-index: 3;
+  padding: 0;
+}
+
+.section-box2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px;
+  width: 500px;
+  height: 400px;
+  overflow: scroll;
+  box-shadow: 0 .25rem .25rem hsla(0, 0%, 0%, .1);
+  background-image:
+    linear-gradient(180deg, hsla(0, 0%, 45%, .1) 2rem, hsla(0, 100%, 100%, 0) 2.5rem)
+  , linear-gradient(180deg, hsla(60, 100%, 75%,1), hsla(60, 100%, 75%, 1));
+  font-size: 2px;
+  line-height: 1.8;
+  position: relative;
+  left: 60%;
+  z-index: 3;
+}
+
+.section-box3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px;
+  width: 500px;
+  height: 400px;
+  overflow: scroll;
+  box-shadow: 0 .25rem .25rem hsla(0, 0%, 0%, .1);
+  background-image:
+    linear-gradient(180deg, hsla(0, 0%, 45%, .1) 2rem, hsla(0, 100%, 100%, 0) 2.5rem)
+  , linear-gradient(180deg, hsla(60, 100%, 75%,1), hsla(60, 100%, 75%, 1));
+  font-size: 1.125rem;
+  line-height: 1.8;
+  position: relative;
+  z-index: 3;
+}
+.section-box4 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-between;
+  padding: 50px;
+  width: 500px;
+  height: 400px;
+  overflow: scroll;
+  box-shadow: 0 .25rem .25rem hsla(0, 0%, 0%, .1);
+  background-image:
+    linear-gradient(180deg, hsla(0, 0%, 45%, .1) 2rem, hsla(0, 100%, 100%, 0) 2.5rem)
+  , linear-gradient(180deg, hsla(60, 100%, 75%,1), hsla(60, 100%, 75%, 1));
+  font-size: 1.125rem;
+  line-height: 1.8;
+  position: relative;
+  z-index: 3;
+  left: 60%;
+}
+
+/* ボックスの中身 */
+.section-plot{
+  width: 100%;
+  padding: 30px;
+}
+
+.section-plot p1 {
+  font-size: 0.01px;
+  font-family: 'Yusei Magic', sans-serif;
+  font-weight: 500;
+  
+  display: inline-block;
+  display: block;
+}
+.section-plot p2 {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Yusei Magic', sans-serif;
+  font-weight: 500;
+  margin: 30%;
+  letter-spacing: 3px;
+}
+.section-plot p3 {
+  font-size: 18px;
+  font-family: 'Yusei Magic', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/* イメージ */
+
+.images{
+  width: 300px;
+  height: 300px;
+}
+
+i{
+  width: 300px;
+  height: 300px;
+}
+
+.img-profile{
+  width: 10%;
+  height: 20%;
+  position:absolute;
+  margin-top: 100px;
+  
+  
+}
+
+
+.img-skill{
+  width: 30%;
+  height: 40%;
+  position:absolute;
+  margin-top: 200px;
+  margin-left: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-application{
+  width: 30%;
+  height: 60%;
+  position:absolute;
+  margin-top: 250px;
+  margin-left: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-contact{
+  width: 30%;
+  height: 50%;
+  position:absolute;
+  margin-top: 200px;
+  margin-left: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fa-rotate-30 {
+	transform: rotate(30deg);
+}
+
+/* フッター */
+#footer{
+  background-image: url("./img/b113.jpg");
+  margin: -8px;
+  margin-top: 200px;
+  height: -50%;
+}
+
+#footer .inner{
+  padding: 30px;
+}
+
+#footer .copyright{
+  font-size: 15px;
+  color: black;
+  text-align: center;
+}
 }
