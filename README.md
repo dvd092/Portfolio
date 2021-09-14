@@ -2,7 +2,7 @@
 
 ポートフォリオです。
 
-http://davidkim.site/
+https://portfoliodavid.herokuapp.com/
 
 よろしくお願いします。
 
